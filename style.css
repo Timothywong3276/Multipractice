@@ -1,0 +1,49 @@
+#body {
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Full viewport height */
+  margin: 0;
+  /* Remove default margins */
+  background-color: rgb(46, 46, 46);
+}
+
+#biggerContainer {
+  align-items: center;
+  text-align: center;
+
+}
+
+#container {
+  background-color: rgb(28, 28, 28);
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#question {
+  font-size: 100px;
+  padding-top: 120px;
+  margin-top: 0px;
+  color: whitesmoke;
+}
+
+#answer {
+  text-align: center;
+  width: 40px;
+  margin-bottom: 20px;
+}
+
+.streak {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(175, 112, 112);
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
